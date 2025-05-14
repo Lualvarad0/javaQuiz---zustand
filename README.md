@@ -54,10 +54,10 @@ Luego, abre tu navegador en `http://localhost:5173` para comenzar a jugar.
 quiz-js-zustand/
 ├── public/           # Archivos públicos
 ├── src/
-│   ├── components/   # Componentes React (Pregunta, Resultado, etc.)
-│   ├── store/        # Estado global con Zustand
-│   ├── types/        # Definiciones de TypeScript
-│   ├── utils/        # Funciones auxiliares
+│   ├── assets/       # Componentes React (Pregunta, Resultado, etc.)
+|   ├── hooks/ 
+│   ├── services/     # Estado global con Zustand
+|   ├── store/ 
 │   ├── App.tsx       # Componente raíz
 │   └── main.tsx      # Punto de entrada de Vite
 ├── .eslintrc.js      # Configuración ESLint
@@ -72,21 +72,13 @@ quiz-js-zustand/
 
 | Tecnología          | Versión |
 | ------------------- | ------- |
-| Vite                | ^5.0.0  |
+| Vite                | ^6.5.3  |
 | React               | ^18.2.0 |
 | TypeScript          | ^5.0.0  |
 | Zustand             | ^4.4.0  |
 | MUI / @mui/material | ^5.13.0 |
 | ESLint              | ^8.0.0  |
 | Prettier            | ^2.0.0  |
-
-\--------------------- | ------------------ |
-\| Vite                  | ^5.0.0             |
-\| React                 | ^18.2.0            |
-\| TypeScript            | ^5.0.0             |
-\| Zustand               | ^4.4.0             |
-\| ESLint                | ^8.0.0             |
-\| Prettier              | ^2.0.0             |
 
 ---
 
